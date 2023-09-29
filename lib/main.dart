@@ -23,7 +23,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('News Feed'),
+        title: Text('News Feed',style: TextStyle(color: Colors.white),),
         backgroundColor: Colors.blue,
       ),
       body: OrientationBuilder(builder: (context, orientation) =>
@@ -46,7 +46,7 @@ class protrait extends StatelessWidget {
             child: Container(
               padding: EdgeInsets.all(8.0),
               child: Image.network(
-                'https://as2.ftcdn.net/v2/jpg/00/97/58/97/1000_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg',
+                'https://via.placeholder.com/150',
                 width: 150,
                 height: 150,
               ),
@@ -70,7 +70,7 @@ class landscape extends StatelessWidget {
           return Card(
             child: Container(
               child: Image.network(
-                'https://as2.ftcdn.net/v2/jpg/00/97/58/97/1000_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg',
+                'https://via.placeholder.com/150',
                 width: 150,
                 height: 150,
               ),
