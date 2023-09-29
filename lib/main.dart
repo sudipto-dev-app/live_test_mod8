@@ -23,7 +23,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('News Feed',style: TextStyle(color: Colors.white),),
+        title: Text('News Feed',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
         backgroundColor: Colors.blue,
       ),
       body: OrientationBuilder(builder: (context, orientation) =>
